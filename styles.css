@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Light gray background */
+}
+
+/* Container for the content with padding and margins */
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Added margin */
+    padding: 20px;
+    border: 2px solid #333; /* Darker border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background */
+}
+
+/* Header style with a darker background, rounded top corners, and borders */
+header {
+    text-align: center;
+    background-color: #2071c0; /* Darker blue accent */
+    color: #fff; /* White text color */
+    padding: 15px; /* Increased padding */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    border: 2px solid #333; /* Darker border */
+}
+
+/* Navigation links with additional animations */
+nav {
+    text-align: center;
+    margin-top: 20px; /* Added margin */
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498db; /* Blue accent */
+    transition: color 0.3s ease, transform 0.2s ease; /* Added transform animation */
+    margin: 10px; /* Added margin */
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #2071c0; /* Darker blue on hover */
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Image grid styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Gap between grid items */
+    margin-top: 20px; /* Added margin */
+}
+
+.image-item {
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease; /* Scale up on hover */
+    border: 2px solid #000; /* Black border */
+}
+
+.image-item:hover {
+    transform: scale(1.02); /* Scale up on hover */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-item p {
+    text-align: center;
+    margin-top: 10px; /* Added margin */
+}
+
+/* Hyperlink styles */
+.image-item a {
+    text-decoration: none;
+    color: #3498db; /* Blue accent */
+}
+
+.image-item a:hover {
+    color: #2071c0; /* Darker blue on hover */
+}
+
